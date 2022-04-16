@@ -9,6 +9,6 @@ namespace OneTimePassword.Data
     public interface IOtpRepository
     {
         string Create(OtpModel otp);
-        bool VerifyOtp(string otp, DateTime date);
+        bool VerifyOtp(string otp);
     }
 }
